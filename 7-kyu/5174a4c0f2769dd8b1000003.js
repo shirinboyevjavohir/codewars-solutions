@@ -1,0 +1,4 @@
+const solution = (nums) =>
+  nums && nums.length > 0 ? nums.sort((a, b) => a - b) : [];
+
+console.log(solution(null));
