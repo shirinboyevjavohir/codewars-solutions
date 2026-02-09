@@ -1,0 +1,1 @@
+const isPalindrome = value  => value.toLowerCase() === value.split('').reverse().join('');
